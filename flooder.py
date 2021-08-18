@@ -275,16 +275,16 @@ class GoogleTestCase(unittest.TestCase):
 
                                                                                                                                                                                                                                                                                                                                                   
 global data                           
-headers = open("headers.txt", "r")
+headers = open("instruments/headers.txt", "r")
 data = headers.read()
 headers.close()
-user_agent = open("useragent.js", "r")
+user_agent = open("instruments/useragent.js", "r")
 data = user_agent.read()
 user_agent.close()
-droids = open("droids.txt", "r")
+droids = open("instruments/droids.txt", "r")
 data = droids.read()
 droids.close()
-xmlrpc = open("xmlrpc.txt", "r")
+xmlrpc = open("instruments/xmlrpc.txt", "r")
 data = xmlrpc.read()
 xmlrpc.close()
 
