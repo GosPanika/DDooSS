@@ -1,3 +1,4 @@
+https://www.dns-shop.ru/
 import asyncio
 import ovh
 import socket
